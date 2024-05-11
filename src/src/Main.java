@@ -27,8 +27,6 @@ public class Main extends OOPGraphics {
         super.about();
     }
 
-
-
     StringBuilder commandSaver = new StringBuilder();
 
     public void processCommand(String command) {
@@ -40,9 +38,6 @@ public class Main extends OOPGraphics {
         int value1 = 0;
         int value2 = 0;
         int value3 = 0;
-        float angle1 =0;
-        float angle2 =0;
-        float angle3 =0;
         String cmd = amount[0];
         Color colour = new Color(value1,value2,value3);
 
